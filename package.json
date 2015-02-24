@@ -7,7 +7,7 @@
     "my-script": "./bin/my-script"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "author": "",
   "license": "ISC",
