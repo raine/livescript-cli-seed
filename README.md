@@ -1,39 +1,39 @@
-# livescript-cli-boilerplate
+# livescript-cli-boilerplate :nut_and_bolt:
 
 ```
-├── package.json <--- make it yours
+├── package.json   <── make it yours
 ├── README.md
-├── Makefile <--- no changes necessary, plug and play
+├── Makefile   <── no changes necessary, plug and play
 ├── bin
 │   └── cli
 ├── src
-│   └── index.ls <--- write mad fp codez here
+│   └── index.ls   <── write mad fp codez here
 └── test
     └── basic.ls
 ```
 
-#### Running locally
+#### running locally
 
 ```sh
 lsc src/index               # or
 make; node bin/hello-world  # 
 ```
 
-#### Install the script globally in localhost
+#### install the script globally in localhost
 
 ```sh
 make install
 hash -r; hello-world
 ```
 
-#### Publish to npm
+#### publish to npm
 
 ```sh
 npm version minor  # bump version
 make publish
 ```
 
-#### Run tests
+#### run tests
 
 ```sh
 make test
