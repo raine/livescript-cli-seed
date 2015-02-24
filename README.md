@@ -2,13 +2,13 @@
 
 ```
 .
-├── package.json
+├── package.json <--- make it yours
 ├── README.md
-├── Makefile
+├── Makefile <--- no changes necessary, plug and play
 ├── bin
-│   └── hello-world
+│   └── cli
 ├── src
-│   └── index.ls
+│   └── index.ls <--- write mad fp codez here
 └── test
     └── basic.ls
 ```

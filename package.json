@@ -4,7 +4,7 @@
   "description": "boilerplate for livescript cli apps",
   "repository": "raine/livescript-cli-boilerplate",
   "bin": {
-    "hello-world": "./bin/hello-world"
+    "hello-world": "./bin/cli"
   },
   "scripts": {
     "test": "make test"
