@@ -20,11 +20,11 @@ lsc src/index             # or
 make; node bin/my-script  # 
 ```
 
-#### Install the script locally
+#### Install the script globally in localhost
 
 ```sh
 make install
-make reinstall
+hash -r; my-script
 ```
 
 #### Publish to npm
