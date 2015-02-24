@@ -1,0 +1,18 @@
+{
+  "name": "livescript-cli-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for livescript cli apps",
+  "repository": "raine/livescript-cli-boilerplate",
+  "bin": {
+    "my-script": "./bin/my-script"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "LiveScript": "^1.3.1",
+    "mocha": "^2.1.0"
+  }
+}
