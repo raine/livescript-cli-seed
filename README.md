@@ -1,7 +1,6 @@
 # livescript-cli-boilerplate
 
 ```
-.
 ├── package.json <--- make it yours
 ├── README.md
 ├── Makefile <--- no changes necessary, plug and play
