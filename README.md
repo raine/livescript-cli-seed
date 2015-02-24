@@ -1,31 +1,38 @@
 # livescript-cli-boilerplate
 
-Hello world.
+```
+├── README.md
+├── package.json
+├── Makefile
+├── bin
+│   └── my-script
+├── src
+│   └── index.ls
+└── test
+```
 
-## Running locally
+#### Running locally
 
 ```sh
 lsc src/index             # or
 make; node bin/my-script  # 
 ```
 
-## Install the script locally
+#### Install the script locally
 
 ```sh
 make install
 make reinstall
 ```
 
-## Publish to npm
-
-Something to like,
+#### Publish to npm
 
 ```sh
-npm version minor
+npm version minor  # bump version
 make publish
 ```
 
-## Run tests
+#### Run tests
 
 ```sh
 make test
