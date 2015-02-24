@@ -1,5 +1,5 @@
 require! assert
 
-describe 'my script' (,) ->
-  it 'is the best' ->
+describe 'hello world' (,) ->
+  it 'is cool' ->
     assert.ok true

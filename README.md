@@ -6,7 +6,7 @@
 ├── README.md
 ├── Makefile
 ├── bin
-│   └── my-script
+│   └── hello-world
 ├── src
 │   └── index.ls
 └── test
@@ -16,15 +16,15 @@
 #### Running locally
 
 ```sh
-lsc src/index             # or
-make; node bin/my-script  # 
+lsc src/index               # or
+make; node bin/hello-world  # 
 ```
 
 #### Install the script globally in localhost
 
 ```sh
 make install
-hash -r; my-script
+hash -r; hello-world
 ```
 
 #### Publish to npm
