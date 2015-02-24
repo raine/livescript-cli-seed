@@ -1,14 +1,16 @@
 # livescript-cli-boilerplate
 
 ```
-├── README.md
+.
 ├── package.json
+├── README.md
 ├── Makefile
 ├── bin
 │   └── my-script
 ├── src
 │   └── index.ls
 └── test
+    └── basic.ls
 ```
 
 #### Running locally
