@@ -2,13 +2,13 @@
 
 a simple template for LiveScript CLI apps
 
-- sourcemaps enabled ([#675](https://github.com/gkz/LiveScript/pull/675))
+- comes with sourcemaps enabled ([gkz/LiveScript #675](https://github.com/gkz/LiveScript/pull/675))
 - makefile with common tasks
 
 ```
-├── package.json   <── make it yours
+├── package.json
 ├── README.md
-├── Makefile   <── no changes needed
+├── Makefile
 ├── bin
 │   └── cli
 ├── src
