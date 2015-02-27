@@ -1,13 +1,18 @@
 # livescript-cli-boilerplate :nut_and_bolt:
 
+a simple template for LiveScript CLI apps
+
+- sourcemaps enabled ([#675](https://github.com/gkz/LiveScript/pull/675))
+- makefile with common tasks
+
 ```
 ├── package.json   <── make it yours
 ├── README.md
-├── Makefile   <── no changes necessary, plug and play
+├── Makefile   <── no changes needed
 ├── bin
 │   └── cli
 ├── src
-│   └── index.ls   <── write mad fp codez here
+│   └── index.ls
 └── test
     └── basic.ls
 ```
@@ -23,7 +28,7 @@ make; node bin/hello-world  #
 
 ```sh
 make install
-hash -r; hello-world
+hello-world
 ```
 
 #### publish to npm
