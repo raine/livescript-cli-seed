@@ -4,7 +4,7 @@ a simple template for [LiveScript](http://livescript.net/) CLI apps
 
 - makefile with common tasks
 - comes with sourcemaps enabled ([gkz/LiveScript #675](https://github.com/gkz/LiveScript/pull/675))
-- [launch node with harmony features](https://github.com/raine/livescript-cli-boilerplate/blob/master/bin/cli-harmony-example)
+- [use harmony features](https://github.com/raine/livescript-cli-boilerplate/blob/master/bin/cli-harmony-example)
 - parsing `process.argv` is up to you
 
 ```
