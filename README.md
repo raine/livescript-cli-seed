@@ -1,6 +1,6 @@
 # livescript-cli-boilerplate :nut_and_bolt:
 
-a simple template for LiveScript CLI apps
+a simple template for [LiveScript](http://livescript.net/) CLI apps
 
 - comes with sourcemaps enabled ([gkz/LiveScript #675](https://github.com/gkz/LiveScript/pull/675))
 - makefile with common tasks
