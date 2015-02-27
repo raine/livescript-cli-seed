@@ -4,13 +4,15 @@ a simple template for [LiveScript](http://livescript.net/) CLI apps
 
 - comes with sourcemaps enabled ([gkz/LiveScript #675](https://github.com/gkz/LiveScript/pull/675))
 - makefile with common tasks
+- [launch node with harmony features](https://github.com/raine/livescript-cli-boilerplate/blob/master/bin/cli-harmony-example)
 
 ```
 ├── package.json
 ├── README.md
 ├── Makefile
 ├── bin
-│   └── cli
+│   ├── cli
+│   └── cli-harmony-example
 ├── src
 │   └── index.ls
 └── test
