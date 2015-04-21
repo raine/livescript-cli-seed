@@ -23,8 +23,8 @@ a simple template for [LiveScript](http://livescript.net/) CLI apps
 #### run
 
 ```sh
-lsc src/index               # or
-make; node bin/hello-world  # 
+lsc src/index       # or
+make; node bin/cli  #
 ```
 
 #### install the script globally
