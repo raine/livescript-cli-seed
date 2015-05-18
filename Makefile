@@ -42,4 +42,4 @@ publish: all test
 test: compile
 	@$(MOCHA) \
 		--timeout 20000 \
-		--compilers ls:LiveScript \
+		--compilers ls:livescript \
