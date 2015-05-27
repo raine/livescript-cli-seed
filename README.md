@@ -1,11 +1,11 @@
 # livescript-cli-boilerplate :nut_and_bolt:
 
-a simple template for [LiveScript](http://livescript.net/) CLI apps
+a simple template for [LiveScript][livescript] CLI apps
 
 - makefile with common tasks
 - comes with sourcemaps enabled ([gkz/LiveScript #675](https://github.com/gkz/LiveScript/pull/675))
 - [use harmony features](https://github.com/raine/livescript-cli-boilerplate/blob/master/bin/cli-harmony-example)
-- parsing `process.argv` is up to you, [optionator](https://github.com/gkz/optionator) is recommended
+- parsing `process.argv` is up to you, [optionator][optionator] or [minimist][minimist] is recommended
 
 ```
 ├── package.json
@@ -20,31 +20,42 @@ a simple template for [LiveScript](http://livescript.net/) CLI apps
     └── basic.ls
 ```
 
-#### run
+## run
 
 ```sh
 lsc src/index       # or
 make; node bin/cli  #
 ```
 
-#### install the script globally
+## install the script globally
 
 ```sh
 make install
 hello-world
 ```
 
-#### publish to npm
+## publish to npm
 
 ```sh
 npm version minor  # bump version
 make publish
 ```
 
-#### run tests
+## run tests
 
 ```sh
 make test
-make test-w # watch
+make test-w  # watch
 REPORTER=nyan make test
 ```
+
+[livescript]: http://livescript.net
+[optionator]: https://github.com/gkz/optionator
+[minimist]: https://github.com/substack/minimist
+
+## inspiration
+
+- [ramda-cli](https://github.com/raine/ramda-cli)
+- [ez-jenkins](https://github.com/raine/ez-jenkins)
+- [markdown-table-cli](https://github.com/raine/markdown-table-cli)
+- [tunnit](https://github.com/raine/tunnit)
