@@ -1,5 +1,5 @@
 require! assert
 
-describe 'hello world' (,) ->
+describe 'livescript' (,) ->
   it 'is cool' ->
     assert.ok true

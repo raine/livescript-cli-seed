@@ -6,6 +6,9 @@ LIB = $(SRC:src/%.ls=lib/%.js)
 MOCHA = ./node_modules/.bin/mocha
 LSC = node_modules/.bin/lsc
 NAME = $(shell node -e "console.log(require('./package.json').name)")
+REPORTER ?= spec
+GREP ?= ".*"
+MOCHA_ARGS = --grep $(GREP) --compilers ls:livescript --recursive
 
 default: all
 
@@ -39,7 +42,8 @@ publish: all test
 	git push --tags origin HEAD:master
 	npm publish
 
-test: compile
-	@$(MOCHA) \
-		--timeout 20000 \
-		--compilers ls:livescript \
+test:
+	@$(MOCHA) $(MOCHA_ARGS) --reporter $(REPORTER)
+
+test-w:
+	@$(MOCHA) $(MOCHA_ARGS) --reporter min --watch

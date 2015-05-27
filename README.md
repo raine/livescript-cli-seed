@@ -45,4 +45,6 @@ make publish
 
 ```sh
 make test
+make test-w # watch
+REPORTER=nyan make test
 ```
