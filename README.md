@@ -1,4 +1,4 @@
-# livescript-cli-seed :nut_and_bolt:
+# livescript-cli-seed :seedling:
 
 a simple template for [LiveScript][livescript] CLI apps
 
