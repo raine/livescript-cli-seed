@@ -20,17 +20,21 @@ a simple template for [LiveScript][livescript] CLI apps
     └── basic.ls
 ```
 
+## getting started
+
+```sh
+git clone git@github.com:raine/livescript-cli-seed.git my-tool
+cd my-tool
+rm -rf .git
+# edit package.json to your liking
+make readme # overwrites README.md based on package.json
+```
+
 ## run
 
 ```sh
 lsc src/index       # or
 make; node bin/cli  #
-```
-
-## render readme.tmpl.md to readme.md
-
-```
-make readme
 ```
 
 ## install the script globally
