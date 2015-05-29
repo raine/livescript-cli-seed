@@ -1,8 +1,8 @@
 {
-  "name": "livescript-cli-seed",
+  "name": "TODO",
   "version": "1.0.0",
-  "description": "a template for livescript cli apps",
-  "repository": "raine/livescript-cli-seed",
+  "description": "TODO",
+  "repository": "TODO",
   "bin": {
     "hello-world": "./bin/cli"
   },
