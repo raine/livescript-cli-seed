@@ -1,10 +1,10 @@
-# livescript-cli-boilerplate :nut_and_bolt:
+# livescript-cli-seed :nut_and_bolt:
 
 a simple template for [LiveScript][livescript] CLI apps
 
 - makefile with common tasks
 - comes with sourcemaps enabled ([gkz/LiveScript #675](https://github.com/gkz/LiveScript/pull/675))
-- [use harmony features](https://github.com/raine/livescript-cli-boilerplate/blob/master/bin/cli-harmony-example)
+- [use harmony features](https://github.com/raine/livescript-cli-seed/blob/master/bin/cli-harmony-example)
 - parsing `process.argv` is up to you, [optionator][optionator] or [minimist][minimist] is recommended
 
 ```

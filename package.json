@@ -1,8 +1,8 @@
 {
-  "name": "livescript-cli-boilerplate",
+  "name": "livescript-cli-seed",
   "version": "1.0.0",
-  "description": "boilerplate for livescript cli apps",
-  "repository": "raine/livescript-cli-boilerplate",
+  "description": "a template for livescript cli apps",
+  "repository": "raine/livescript-cli-seed",
   "bin": {
     "hello-world": "./bin/cli"
   },
