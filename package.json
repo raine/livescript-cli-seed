@@ -13,7 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "livescript": "^1.4.0",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "tmpl-cli": "^0.1.2"
   },
   "dependencies": {
     "source-map-support": "^0.2.10"

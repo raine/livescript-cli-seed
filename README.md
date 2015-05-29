@@ -27,6 +27,12 @@ lsc src/index       # or
 make; node bin/cli  #
 ```
 
+## render readme.tmpl.md to readme.md
+
+```
+make readme
+```
+
 ## install the script globally
 
 ```sh

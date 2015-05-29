@@ -4,7 +4,7 @@ SRC = $(shell find src -name "*.ls" -type f | sort)
 LIB = $(SRC:src/%.ls=lib/%.js)
 
 MOCHA = ./node_modules/.bin/mocha
-LSC = node_modules/.bin/lsc
+LSC = ./node_modules/.bin/lsc
 NAME = $(shell node -e "console.log(require('./package.json').name)")
 REPORTER ?= spec
 GREP ?= ".*"
@@ -47,3 +47,6 @@ test:
 
 test-w:
 	@$(MOCHA) $(MOCHA_ARGS) --reporter min --watch
+
+readme:
+	cat package.json | ./node_modules/.bin/tmpl README.tmpl.md > README.md
