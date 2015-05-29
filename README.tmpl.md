@@ -8,7 +8,10 @@ npm install -g {{name}}
 
 ## usage
 
-blah blah
+
+```
+$ {{Object.keys(bin)[0]}}
+```
 
 ## example
 
